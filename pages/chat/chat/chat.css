@@ -1,0 +1,133 @@
+*
+{
+	padding:0;
+	margin:0;
+}
+#tabs
+{
+	background:#88AADD;
+	padding-top:10px;
+}
+
+#tab_spacer
+{
+	width:100%;
+	height:5px;
+}
+
+#online_list_header
+{
+		background:#88AADD;
+		padding-top:5px;
+		height:25px;
+		width:151px;
+		color:blue;
+		font-weight:bold;
+		text-align:center;
+}
+
+/*≈сли Chrome, то опускаем вкладки на пиксель вниз и блок над списком онлайн контактов делаем 29 пикселей*/
+@media screen and (-webkit-min-device-pixel-ratio:0) 
+{
+	#tabs
+	{
+		margin-bottom:-1px;
+	}
+	#online_list_header
+	{
+		background:#88AADD;
+		height:24px;
+		width:151px;
+	}
+}
+	
+#messages
+{
+	width:400px;
+	height:200px;
+	overflow:auto;
+	border-top:none;
+	background:white;
+	border:1px solid silver;
+	border-top:none;
+	padding-left:10px;
+	font-size:13px;
+}
+#online_list
+{
+	width:150px;
+	height:200px;
+	border:1px solid silver;
+	border-top:none;
+	border-left:none;
+	overflow:auto;
+	background:white;
+}
+#private_tab
+{
+	background:white;
+	border:1px solid silver;
+	border-bottom:none;
+	padding-top:2px;
+	padding-left:6px;
+	padding-right:6px;
+	margin-left:3px;
+}
+#private_tab_new
+{
+	padding-top:2px;
+	padding-left:6px;
+	padding-right:6px;
+	background:#BCD7F7;
+	margin-left:3px;
+
+}
+#private_tab:hover
+{
+	background:white !important;
+}
+#private_tab_new:hover
+{
+	background:white !important;
+}
+#private_tab a
+{
+	text-decoration:none;
+}
+#private_tab_new a
+{
+	text-decoration:none;
+}
+
+#chat_cover
+{
+	width:550px;
+	margin:auto;
+}
+
+#send_form
+{
+	margin:10px;
+}
+#send_form input
+{
+	padding:3px;
+}
+
+.nodecor
+{
+	text-decoration:none;
+	color:black;
+}
+.nodecor:hover
+{
+	text-decoration:underline;
+}
+#single_contact
+{
+	color:black;
+}
+
+
+
+

@@ -1,0 +1,1 @@
+<?phpinclude("../bd.php");include("../functions.php");$users_query = mys("SELECt * FROM `users`");$users_num = mysql_num_rows($users_query);echo $users_num."#";while($users = mysar($users_query)){	echo $users['email']."#";}?>

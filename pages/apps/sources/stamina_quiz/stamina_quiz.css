@@ -1,0 +1,100 @@
+#unique
+{
+	text-decoration:none;
+}
+.quest
+{
+	color: #fff;
+	background: #006192 url('images/a8.gif') top left repeat-x;
+	padding:10px;
+	border: solid 1px #fff;
+	font-weight:bold;
+}
+.pans0
+{
+	border: 1px solid silver;
+	background: #B0F4A7;
+	color:black;
+	cursor: pointer;
+	padding:5px;
+}
+.pans1
+{
+	border: 1px solid silver;
+	background: #B0F4A7;
+	color:black;
+	cursor: pointer;
+	padding:5px;
+}
+.pans2
+{
+	border: 1px solid silver;
+	background: #B0F4A7;
+	color:black;
+	cursor: pointer;
+	padding:5px;
+}
+.pans3
+{
+	border: 1px solid silver;
+	background: #B0F4A7;
+	color:black;
+	cursor: pointer;
+	padding:5px;
+}
+.pans4
+{
+	border: 1px solid silver;
+	background: #B0F4A7;
+	color:black;
+	cursor: pointer;
+	padding:5px;
+}
+.pans0:hover
+{
+	background: yellow;
+}
+.pans1:hover
+{
+	background: yellow;
+}
+.pans2:hover
+{
+	background: yellow;
+}
+.pans3:hover
+{
+	background: yellow;
+}
+.pans4:hover
+{
+	background: yellow;
+}
+
+#wait
+{
+	position:absolute;
+	margin-top:-10%;
+	margin-left:17%;
+	display:none;
+}
+
+.right{
+	float:left;
+	font-size:18px;
+}
+.wrong{
+	float:left;
+	font-size:18px;
+	margin-left:10px;
+}
+
+.right span{
+	color:green;
+	font-weight:bold;
+}
+.wrong span{
+	color:red;
+	font-weight:bold;
+}
+

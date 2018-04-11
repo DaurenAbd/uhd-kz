@@ -1,0 +1,1 @@
+﻿var menu_showed=0;function open_menu(){	if(menu_showed==0)	{		$("#menu").show('blind',{},200);		menu_showed=1;	}	else	{		$("#menu").hide('blind',{},200);		menu_showed=0;	}}
